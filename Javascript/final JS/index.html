@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Последнее занятие</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="popitka" action="">
+        <!-- Имя пользователя -->
+        <label for="userName">Введите Имя </label>
+        <br>
+        <input name="userName"  id="userName" type="text" placeholder="Иван Пупкин">
+        <br>
+        <!-- Возраст пользователя -->
+        <label for="userAge">Введите возраст </label>
+        <br>
+        <input name="userAge" id="userAge"  type="number" placeholder="43">
+        <br>
+        <!-- Откуда пользователь -->
+        <div>Откуда ты?</div>
+        <input type="radio" id="userFrom1" name="userFrom" value="Веб-Погромисты"><label for="userFrom1">Веб-Погромисты</label>
+        <br>
+        <input type="radio" id="userFrom2" name="userFrom" value="Веб-Войска"><label for="userFrom2">Веб-Войска</label>
+        <br>
+        <input type="radio" id="userFrom3" name="userFrom" value="Улан"><label for="userFrom3">Улан</label>
+        <br>
+
+         <!-- Что любит пользователь? -->
+        <div>Что ты любишь?</div>
+        <input type="checkbox" id="userLike1" class="userLike" value="Xiaomi"><label for="userLike1">Xiaomi</label>
+        <br>
+        <input type="checkbox" id="userLike2" class="userLike" value="Нюхать воздух"><label for="userLike2">Нюхать воздух</label>
+        <br>
+        <input type="checkbox" id="userLike3" class="userLike" value="Лениться"><label for="userLike3">Лениться</label>
+        <br>
+        <input type="checkbox" id="userLike4" class="userLike" value="Читать книги"><label for="userLike4">Читать книги</label>
+        <br>
+        <input type="checkbox" id="userLike5" class="userLike" value="Изучать JS"><label for="userLike5">Изучать JS</label>
+        <br>
+        <!-- Утвердить форму -->
+        <input type="submit" value="button">
+    </form>
+
+
+    <div id="story"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
