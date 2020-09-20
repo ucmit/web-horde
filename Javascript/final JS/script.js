@@ -40,7 +40,6 @@ function onSubmit(event){
             sD += ".";
         }
     }
-
     story.innerHTML = sA + sB + sC + sD;
 }
 

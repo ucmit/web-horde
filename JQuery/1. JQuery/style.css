@@ -1,11 +1,19 @@
 #field{
-    margin-left: 40%;
+    margin-left: 10%;
 }
-
 .circle{
     display:inline-block;
     border-radius: 100%;
     width: 150px;
     height: 150px;
     background-color: blue;
+}
+
+.lime{
+    background-color: lime !important;
+}
+
+.odd{
+    border-radius: 100% !important;
+    transition: 5s ease !important; 
 }
