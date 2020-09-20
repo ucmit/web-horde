@@ -13,8 +13,6 @@ function onSubmit(event){
     let sB = "Однажды он съел ровно " + age + " килограмм шаурмы."
     let sC = "Все были настолько поражены, что его взяли в элитную группу " + from;
 
-    
-
     // Взятие элементы чек-бокса по имени класса
     // userLike не массив D:
     let userLike = document.getElementsByClassName("userLike");
@@ -31,10 +29,17 @@ function onSubmit(event){
     }
 
     // Что любит пользователь?
-    let sD = "";
-    
+    let sD = " А ещё он любит: ";
 
-
+    for(let i = 0; i < like.length; i++){
+        sD += like[i];
+        if(i != like.length-1){
+            sD += ", ";
+        }
+        else{
+            sD += ".";
+        }
+    }
 
     story.innerHTML = sA + sB + sC + sD;
 }
