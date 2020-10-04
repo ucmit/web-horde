@@ -63,5 +63,3 @@ $(".circle:nth-child(2n+1)").click(function (event) {
 
 //     })
 // }
-
-
